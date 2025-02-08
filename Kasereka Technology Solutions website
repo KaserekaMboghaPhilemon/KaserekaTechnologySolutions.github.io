@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasereka Philemon - Professional Services</title>
+    <link rel="stylesheet" href="style.css">
+		<style>
+    body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    text-align: center;
+}
+
+header {
+    background: #333;
+    color: #fff;
+    padding: 15px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+section {
+    padding: 50px;
+    background: #fff;
+    margin: 20px auto;
+    width: 80%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.1);
+}
+
+.profile-img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+.service {
+    display: inline-block;
+    margin: 20px;
+}
+
+.service img {
+    width: 100px;
+    height: 100px;
+}
+
+.portfolio-item img {
+    width: 80%;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+form {
+    margin-top: 20px;
+}
+
+form input, form textarea {
+    width: 80%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 20px;
+    background: #333;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #555;
+}
+
+footer {
+    background: #333;
+    color: #fff;
+    padding: 10px;
+    margin-top: 20px;
+}
+		</style>
+
+</head>
+<body>
+
+    <header>
+        <h1>Kasereka Philemon</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#portfolio">Portfolio</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <img src="images/profile.jpg" alt="Kasereka Philemon" class="profile-img">
+        <p>I am a skilled digital professional specializing in web development, digital marketing, and graphic design.</p>
+        <p><strong>Contact:</strong> 0734018276 | <a href="mailto:kmboghaphilemongmail.com">kmboghaphilemongmail.com</a></p>
+    </section>
+
+    <section id="services">
+        <h2>Services</h2>
+        <div class="service">
+            <img src="kase.jpg">
+  <p class="philly">@philemon kasereka mbogha</p>
+  <p>i am a versatile <em>web developwer with &lt;html&gt;,css and javascript &copy;</em></p>
+  <p>let's connect and make a difference</p>
+  <ul>		
+    <li>Web development</li>
+    <li>Web design</li>
+    <li>Digital marketing</li>
+    <li>Transcription</li>
+    <li>Content creation</li>
+    <li>Thermbonail creation</li>
+  </ul>
+            <img src="images/web-development.png" alt="Web Development">
+            <p>Web Development</p>
+        </div>
+        <div class="service">
+            <img src="images/graphic-design.png" alt="Graphic Design">
+            <p>Graphic Design</p>
+        </div>
+        <div class="service">
+            <img src="images/digital-marketing.png" alt="Digital Marketing">
+            <p>Digital Marketing</p>
+        </div>
+        <div class="service">
+            <img src="images/content-writing.png" alt="Content Writing">
+            <p>Content Writing & SEO</p>
+        </div>
+    </section>
+
+    <section id="portfolio">
+        <h2>Portfolio</h2>
+        <p>Check out some of my recent projects below.</p>
+        <div class="portfolio-item">
+            <img src="images/project1.jpg" alt="Project 1">
+            <p>Website Development for a Local Business</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="images/project2.jpg" alt="Project 2">
+            <p>Social Media Marketing Campaign</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="your paragraph text.jpg" alt="Project 3">
+            <p>Graphic Design for a Branding Project</p>
+        </div>
+
+        <h3>Video Showcase</h3>
+        <video width="80%" controls>
+            <source src="videos/portfolio.mp4" type="video/mp4">
+            Your browser does not support the video tag.
+        </video>
+    </section>
+
+    <section id="contact">
+        <h2>Contact Me</h2>
+        <p><strong>Email:</strong> <a href="mailto:kmboghaphilemongmail.com">kmboghaphilemongmail.com</a></p>
+        <p><strong>Phone:</strong> 0734018276</p>
+        <p><strong>Location:</strong> Kakuma, Kenya</p>
+
+        <h3>Send a Message</h3>
+        <form>
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea placeholder="Your Message" required></textarea>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Kasereka Philemon | All Rights Reserved.</p>
+        <p><strong>Contact:</strong> 0734018276 | <a href="mailto:kmboghaphilemongmail.com">kmboghaphilemongmail.com</a></p>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+    document.addEventListener("DOMContentLoaded", function () {
+    console.log("Website loaded successfully!");
+
+    // Contact form submission alert
+    document.querySelector("form").addEventListener("submit", function (event) {
+        event.preventDefault();
+        alert("Your message has been sent! I will get back to you soon.");
+    });
+});
+
+    </script>
+</body>
+</html>
